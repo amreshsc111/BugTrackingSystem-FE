@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { API_ENDPOINTS } from '../constants/apiEndpoints';
 
-const API_BASE_URL = process.env.REACT_APP_API_STAGING_URL || process.env.REACT_APP_API_DEVELOPMENT_URL;
+const API_BASE_URL = import.meta.env.VITE_API_STAGING_URL || import.meta.env.VITE_API_DEVELOPMENT_URL;
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
