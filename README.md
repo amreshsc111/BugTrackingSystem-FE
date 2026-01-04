@@ -62,3 +62,4 @@ Build with `npm run build` and deploy the resulting `build/` or `dist/` folder t
 ## To Do
 - Add Admin Control
 - Integrate CI/CD
+- Bug fixes and Validation checks
