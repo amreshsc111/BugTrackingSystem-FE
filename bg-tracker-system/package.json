@@ -6,7 +6,9 @@
   "type": "module",
   "scripts":{
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build",
+    "start": "vite",
+    "build": "vite build"
 }   ,
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
